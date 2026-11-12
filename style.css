@@ -1,0 +1,13 @@
+*{box-sizing:border-box;margin:0}
+body{font-family:'Inter',Arial,sans-serif;background:#fafaf7;color:#111;font-size:18px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+main{flex:1;max-width:1000px;margin:0 auto;padding:0 24px;width:100%}
+.top{padding:28px 0;font-size:13px;letter-spacing:.22em;text-transform:uppercase;border-bottom:1px solid #111}
+.hero{padding:90px 0 40px}
+.hero h1{font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(64px,15vw,190px);line-height:.88;letter-spacing:-.02em}
+.hero p{margin-top:34px;max-width:26em;font-size:20px}
+.line{display:flex;flex-wrap:wrap;gap:12px 40px;border-top:1px solid #111;margin-top:60px;padding:26px 0 70px}
+.line small{display:block;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#777}
+.line a{color:#111;text-decoration-thickness:1px;text-underline-offset:4px}
+footer{text-align:center;font-size:13.5px;padding:20px;color:#777}
+footer a{color:#777}
+@media(max-width:600px){.hero{padding:50px 0 20px}}
