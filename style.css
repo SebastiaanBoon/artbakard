@@ -85,4 +85,5 @@ nav a[aria-current="page"]:not(.cta):not(.btn):not(.call){text-decoration:underl
 .sn-card strong{display:block;font-size:1.25em;margin:0 0 6px;color:inherit}
 .sn-card span{display:block;opacity:.8;font-size:.95em;line-height:1.4}
 .sn-card:hover,.sn-card:focus-visible{border-color:currentColor}
+header{position:relative;background:var(--indigo)}
 /* sitenav:end */
